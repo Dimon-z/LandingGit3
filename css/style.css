@@ -41,6 +41,11 @@ box-sizing: border-box;
   box-sizing: inherit;
 }
 
+img{
+  max-width: 100%;
+  height: auto;
+}
+
 body{
   font-family: 'Roboto';
   font-style: normal;
