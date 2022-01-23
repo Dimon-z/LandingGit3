@@ -53,8 +53,8 @@ body{
   line-height: 1.2;
   font-weight: normal;
   color: #000;
-  height:500vh;
-  /* background: url(../img/background2.jpg) no-repeat center; */
+  height:100%;
+  background: url(../img/b9.jpg) no-repeat center ;
   z-index: -10;
   background-size: cover;
   padding-top: 250px;
@@ -125,17 +125,20 @@ opacity: .50;
 
 /* Intro styles start */
 
-/* .intro{
-background:linear-gradient( black,rgb(1, 1, 70) ) ; 
+.intro{
+background:url(../img/b10.jpg) no-repeat center ;
+max-width: 1600px;
+min-width: 200px;
+margin: 0 auto;
 }
- */
+
 .intro__tittle{
   margin-bottom: 20px;
   text-align: center;
   font-weight: 900;
   font-size: 50px;
   line-height: 60px;
-  color:white
+  color:rgb(0, 0, 0)
 }
 
 .intro__subtittle{
@@ -157,7 +160,7 @@ background:linear-gradient( black,rgb(1, 1, 70) ) ;
   font-weight: 500;
   font-size: 30px;
   line-height: 65px;
-  color:white;
+  color:rgb(0, 0, 0);
   margin-left: 20px;
   margin-right: 5px;
 }
@@ -171,8 +174,8 @@ background:linear-gradient( black,rgb(1, 1, 70) ) ;
 }
 
 .wrapper__intro{
- border: 5px solid rgba(255, 255, 255, 0.699);
- background-color: rgb(0, 0, 0);
+ border: 2px solid rgba(0, 0, 0, 0.466);
+ background: linear-gradient(rgba(0, 0, 0, 0.37), rgba(0, 0, 0, 0.199)) ;
  padding-bottom: 20px;
  max-width: 1200px;
  min-width: 950px;
@@ -190,12 +193,12 @@ background:linear-gradient( black,rgb(1, 1, 70) ) ;
   list-style: none;
 }
 
-.header__skills{
+.section__header{
   text-align: center;
   font-weight: 400;
   font-size: 50px;
   line-height: 60px;
-  color:white;
+  color:rgb(255, 255, 255);
   margin-bottom: 20px;
 }
 
@@ -231,9 +234,9 @@ background:linear-gradient( black,rgb(1, 1, 70) ) ;
   min-height: 100px;
 }
 
-.wrapper__for__skills_section{
-  /* background-color: rgb(37, 37, 37); */
-}
+/* .wrapper__for__skills_section{
+  background-color: rgb(37, 37, 37);
+} */
 
 
 
@@ -241,4 +244,115 @@ background:linear-gradient( black,rgb(1, 1, 70) ) ;
 
 
 /* education styles start*/
+.wrapper__education{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.section__header2{
+  display: flex;
+  justify-content: center;
+  margin: 0  auto;
+  width: 100%;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 60px;
+  color:rgb(255, 254, 254);
+  margin-bottom: 20px;
+}
 
+.education{
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 32px;
+  color:rgb(0, 0, 0);
+  margin-bottom: 20px;
+}
+
+.education__school__wrapper{
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.80);
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 20px;
+  min-height: 200px;
+  min-width: 950px;
+  margin: 0  auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.education__college__wrapper{
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.80);
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 20px;
+  min-height: 200px;
+  min-width: 950px;
+  margin: 0  auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.education__university__wrapper{
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.80);
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 20px;
+  min-height: 200px;
+  min-width: 950px;
+  margin: 0  auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+/* education styles end*/
+
+/* expirience styles start*/
+.working__places{
+  /* background:url(../img/b12.jpg) no-repeat center ; */
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 60px;
+  color:rgb(255, 255, 255);
+  margin-bottom: 20px;
+  min-width: 950px;
+}
+
+.working__places__list{
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  color:rgb(245, 245, 245);
+  margin-left: 20px;
+  margin-right: 5px;
+  background-color: rgba(0, 0, 0, 0.658);
+}
+
+.working__place{
+margin: 25px;
+border-bottom: 1px solid rgb(255, 255, 255) ;
+border-top: 1px solid white;
+}
+
+/* expirience styles end*/
+
+/* about me styles start*/
+.little__about__me{
+  background: linear-gradient(rgba(255, 255, 255, 0),black);
+}
+
+.about__me{
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  color:rgb(253, 253, 253);
+}
+
+/* about me styles end*/
